@@ -7,6 +7,6 @@
     current++;
     current %= length;
     frames[current].classList.toggle("active")
-  }, 400);
+  }, 500);
 })()
 
