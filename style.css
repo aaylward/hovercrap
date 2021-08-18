@@ -1,3 +1,7 @@
-.down-a-bit {
-  margin-top: 30px;
+div {
+  display: none;
+}
+
+div.active {
+  display: block;
 }

@@ -1,7 +1,10 @@
 (function(){
-  const ship = document.getElementById("ship");
+  const frames = document.getElementsByTagName("div");
+  let current = 0;
   setInterval(function() {
-    ship.classList.toggle("down-a-bit")
-  }, 500);
+    frames[current].classList.toggle("active")
+    current++;
+    frames[current].classList.toggle("active")
+  }, 125);
 })()
 
